@@ -1,0 +1,122 @@
+body {
+    width: 910px;
+    margin: 50px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+main {
+    padding-top: 1px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+section {
+    display: inline-block;
+    width: 300px;
+    background-color: white;
+}
+
+section:nth-of-type(2) {
+    background-color: #2f4f4f;
+    color: white;
+}
+
+.planName {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.price {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section:first-of-type .price {
+    background-color: #5BB189;
+}
+
+section:nth-of-type(2) .price {
+    background-color: #4b0082;
+}
+
+section:nth-of-type(3) .price {
+    background-color: #EC632A;
+}
+
+.price strong {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+ul {
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+}
+
+main li:nth-child(even) {
+    background-color: rgba(47, 59, 64, 0.35);
+}
+
+button {
+    margin-top: 15px;
+    background-color: #3A6BA5;
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: #437CBF;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer h2,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    font-style: italic;
+}
+
+footer li {
+    text-align: left;
+    padding: 5px;
+    padding-left: 30px;
+    font-weight: 400;
+    background-image: url('/Assignments/Asg1/src/images/checkmark.svg');
+    background-size: 24px;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,111 @@
+@import url(../styles/variables-palette-7.css);
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1200px;
+    padding: 20px;
+}
+
+#outer-box {
+    margin-top: -20px;
+    padding: 50px;
+    box-shadow: 0px 0px 5px gray;
+    background-color: var(--color-neutral-100);
+}
+
+h1 {
+    text-align: center;
+    background-color: var(--color-primary-1-800);
+    color: white;
+    font-weight: 500;
+    position:sticky;
+    z-index: 2;
+    width: 1050px;
+    margin: auto;
+}
+
+#filter-bar {
+    background-color: var(--color-neutral-200);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#table-box {
+    background-color: var(--color-neutral-200);
+    margin-top: 10px;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:not(:first-child, :last-child) {
+    border-bottom: 1px solid gray;
+}
+
+th {
+    background-color: var(--color-primary-1-050);
+    padding: 2px;
+    text-align: left;
+}
+
+th, td {
+    padding-left: 10px;
+}
+
+input, select, button {
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+select, footer button{
+    height: 40px;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 30px;
+}
+
+h2 {
+    text-align: center;
+    background-color: var(--color-primary-1-600);
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+table button:active {
+    background-color: var(--color-primary-1-300);
+}
+
+table button:first-child {
+    background-color: var(--color-primary-1-300);
+}
+
+td:nth-child(2) img {
+    margin-top: 3px;
+    width: 100px;
+    padding: 3px;
+    background-color: var(--color-neutral-300);
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: var(--color-neutral-200);
+    margin-top: 5px;
+    padding: 15px;
+}
+
+footer button {
+    background-color: var(--color-primary-1-500);
+    color: white;
+}
